@@ -15,7 +15,7 @@ In an attack scenario this would look something like this:
 
 ## What does this proof of concept do?
 
-This proof of concept introduces a library which sets up this channel. It's tailored towards my work on [DoHC2](https://github.com/SpiderLabs/DoHC2) and currently the test client does DNS resolution via Google's DNS over HTTPS endpoint. In reality this concept can be extended to talk to any endpoint which presents a 'Access-Control-Allow-Origin' header which permits the localhost endpoint used.
+This proof of concept introduces a library which sets up this channel. It's tailored towards my work on [DoHC2](https://github.com/SpiderLabs/DoHC2) and currently the test client does DNS resolution via Google's DNS over HTTPS endpoint. In reality this concept can be extended to talk to any endpoint which presents a 'Access-Control-Allow-Origin' header which permits the localhost endpoint used. At the moment use of the library has a limitation of expecting JSON in the specific example used, however this could trivially be changed to make something more arbitrary, liklely within the JavaScript.
 
 ## Demo
 
